@@ -17,6 +17,7 @@
   "homepage": "https://github.com/BrynnaWee/ts-playground#readme",
   "description": "",
   "dependencies": {
+    "nodemon": "^3.1.10",
     "typescript": "^5.8.3"
   }
 }
