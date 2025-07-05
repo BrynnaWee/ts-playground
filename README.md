@@ -3,13 +3,15 @@
 ## 📁 프로젝트 구조
 
 ```
+├── .vscode/              # VS Code 설정 폴더
+│   └── tasks.json        # task설정(한곳에서 관리`)
 ├── ts-document/          # 공식문서 뽀개기
 │   ├── src/              # TypeScript 소스 파일
 │   ├── dist/             # 컴파일된 JavaScript 파일
-│   └── tsconfig.json     # TypeScript 설정 파일
+│   └── tsconfig.json     # TypeScript 설정 파일(프로젝트 개별)
 ├──  ❓❓                  # 새로 생길 미지의 폴더..             
 ├── README.md              
-├── tsconfig.json            
+├── tsconfig.json         # 공통설정, 프로젝트별 reference
 └── .gitignore            
 ```
 
